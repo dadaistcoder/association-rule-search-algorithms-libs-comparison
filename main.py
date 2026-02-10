@@ -41,9 +41,6 @@ def run(name, func, trans, min_sup, min_conf):
         total_time = time.time() - start
         return rules, total_time
 
-        
-
-# main
 
 min_sup = float(input("min_sup: "))
 min_conf = float(input("min_conf: "))
@@ -56,8 +53,6 @@ for name, func in runs.items():
     print(run(name, func, trans, min_sup, min_conf))
     
 
-
-    
 trans1 = [
     ["ball", "cleats"],
     ["dumbbells", "jump rope", "mat"],
